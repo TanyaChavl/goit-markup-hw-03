@@ -27,8 +27,8 @@ img {
 
 .container {
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 body {
@@ -37,11 +37,13 @@ body {
     background-color: var(--white-color);
 }
 
+.header {
+    border-bottom: 1px solid var(--border-color);
+}
+
 .header .container {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid var(--border-color);
-    padding: 24px 0;
 }
 
 .nav {
@@ -70,6 +72,7 @@ body {
     display: flex;
     gap: 40px;
     align-items: center;
+    padding: 24px 0;
 }
 
 .nav-link {
@@ -79,6 +82,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-color);
     text-decoration: none;
+    padding: 24px 0;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -182,6 +186,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    margin-bottom: 8px;
 }
 
 .features-paragraph {
