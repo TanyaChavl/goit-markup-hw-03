@@ -264,11 +264,7 @@ body {
 }
 
 .portfolio-item {
-    width: 360px;
-    justify-content: center;
-    border-right: 1px solid var(--border-color);
-    border-bottom: 1px solid var(--border-color);
-    border-left: 1px solid var(--border-color);
+    width: calc((100% - var(--col-indent) * (var(--items) - 1)) / var(--items));
 }
 
 .portfolio-wrapper {
@@ -285,10 +281,6 @@ body {
     width: 100%;
     position: relative;
     display: block;
-}
-
-.card-set-item {
-    width: calc((100% - var(--col-indent) * (var(--items) - 1)) / var(--items));
 }
 
 .footer {
