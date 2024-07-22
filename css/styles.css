@@ -180,16 +180,6 @@ body {
     width: 264px;
 }
 
-.features-main-header {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--primary-color);
-    margin-bottom: 72px;
-}
-
 .features-header {
     font-weight: 500;
     font-size: 20px;
